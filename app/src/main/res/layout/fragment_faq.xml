@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="5dp"
+    android:layout_margin="8dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"
+
+        android:layout_gravity="center"
+        android:fontFamily="@font/lato_black"
+        android:gravity="center_horizontal"
+        android:elevation="10dp"
+        android:text="FAQ">
+
+    </TextView>
+
+    <View
+        android:id="@+id/View2"
+        android:layout_width="120dp"
+        android:layout_height="7dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#366ce0"
+        android:elevation="10dp"
+
+       >
+    </View>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="15sp"
+        android:lines="2"
+        android:layout_gravity="center_horizontal"
+        android:text="(1).Who has Access to Create And Results?">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="15sp"
+        android:lines="3"
+        android:layout_gravity="center_horizontal"
+        android:text="Ans:- It has some special rules i.e admin can only host tests and see all results.">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="15sp"
+        android:lines="3"
+        android:layout_gravity="center_horizontal"
+        android:text="(2).What happens If user leaves test or pressed home button more than once before user submits the test .">
+
+    </TextView>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="15sp"
+        android:lines="2"
+        android:layout_gravity="center_horizontal"
+        android:text="Ans:- Then test gets automatically sumbitted.">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="15sp"
+        android:lines="3"
+        android:layout_gravity="center_horizontal"
+        android:text="(3). What happens before some mentioned reasons or time runs out .">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="15sp"
+        android:lines="2"
+        android:layout_gravity="center_horizontal"
+        android:text="Ans:- Test are automatically submitted before mentioned reasons or time runs out .">
+
+    </TextView>
+
+
+
+
+
+</LinearLayout>

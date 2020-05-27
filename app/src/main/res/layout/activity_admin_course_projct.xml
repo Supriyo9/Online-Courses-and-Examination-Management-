@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCourseProjctActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/AprojcttoolbarCateg"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#ffcc00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></androidx.appcompat.widget.Toolbar>
+
+
+
+    <include layout="@layout/content_tests" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/Aaddcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Add Category"
+        android:background="#ffcc00"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

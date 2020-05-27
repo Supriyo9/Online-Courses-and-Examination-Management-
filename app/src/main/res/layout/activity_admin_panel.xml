@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPanel"
+    android:background="#fff">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Admintoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginBottom="675dp"
+        android:background="#ffcc00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:menu="@menu/menu_notification">
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Admintoolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/adminvido"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                app:srcCompat="@drawable/chattt" />
+
+            <ImageView
+                android:id="@+id/adminassig"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/assing" />
+
+            <ImageView
+                android:id="@+id/adminevnt"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/evntt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/AdminstdmtImg"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stdmat" />
+
+            <ImageView
+                android:id="@+id/Adminprojct"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/projct" />
+
+            <ImageView
+                android:id="@+id/AdminexamImg"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/exami" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

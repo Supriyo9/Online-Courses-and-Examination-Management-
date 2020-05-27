@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:title="General">
+            <menu>
+
+                <item
+                    android:id="@+id/home1"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    android:title="Home" />
+
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/faq"
+                    android:icon="@drawable/ic_question_answer_black_24dp"
+                    android:title="FAQ" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_power_settings_new_black_24dp"
+                    android:title="Logout" />
+            </menu>
+
+        </item>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Share" />
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

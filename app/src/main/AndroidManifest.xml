@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mylearning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/loo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StudntEvntCoursActivity"
+            android:theme="@style/AppTheme.NoActionBar" ></activity>
+        <activity android:name=".Chat_Handler"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".AdminEvntCourseActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudntCourseProjctActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminCourseProjctActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudntCoursStudyActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminCourStudyActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudntAssignCourseActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminAssignCourseActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminResultActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewProjcetSolActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewAssignmentSolActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminStudyActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminEventActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminVideoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminProjectActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminAssignmentActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tests"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".create_quiz_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Custom_quiz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AttemptTest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminPanel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ChangePasswordDialog" />
+        <activity
+            android:name=".StudyMaterial"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Assignment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResultsAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Projects"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VideoCall"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
