@@ -52,6 +52,7 @@ public class Tests extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tests);
         Toolbar toolbar =  findViewById(R.id.toolbar);
+        toolbar.setTitle("Exams");
         toolbar.setTitleTextColor(getResources().getColor(android.R.color.black));
         setSupportActionBar(toolbar);
         avLoadingIndicatorView = findViewById(R.id.loader1);

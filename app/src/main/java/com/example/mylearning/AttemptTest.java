@@ -74,11 +74,14 @@ public class AttemptTest extends AppCompatActivity {
         setContentView(R.layout.activity_attempt);
         questions=((Test) getIntent().getExtras().get("Questions")).getQuestions();
         TESTNAME = (String) getIntent().getExtras().get("TESTNAME");
+
         toolbar=findViewById(R.id.toolbar);
         toolbar.setTitleTextColor(getResources().getColor(android.R.color.black));
+        toolbar.setTitle("Questions");
         answers=new String[questions.size()];
         setSupportActionBar(toolbar);
-        toolbar.setTitleTextColor(getResources().getColor(android.R.color.black));
+
+
         scrollView = (DiscreteScrollView)findViewById(R.id.discrete);
         final QuestionAdapter questionAdapter=new QuestionAdapter(questions);
         scrollView.setAdapter(questionAdapter);

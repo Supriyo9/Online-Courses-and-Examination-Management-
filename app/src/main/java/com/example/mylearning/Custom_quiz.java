@@ -115,7 +115,8 @@ public class Custom_quiz extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(previousQuestion!=currentQuestion) {
+                if(previousQuestion!=currentQuestion)
+                {
                     previousQuestion++;
                     if(previousQuestion!=currentQuestion)
                     setAllData(previousQuestion);
@@ -179,7 +180,7 @@ public class Custom_quiz extends AppCompatActivity {
                                             // edit text
                                             if (str != null ) {
                                                 Toast.makeText(getApplicationContext()
-                                                        , str, Toast.LENGTH_LONG).show();
+                                                        , "Uploaded", Toast.LENGTH_LONG).show();
 //                                         result.setText(userInput.getText());
                                                 Map<String, Object> result = new Gson().fromJson(jsonStr, Map.class);
                                                 fileName = userInput.getText().toString().trim();
