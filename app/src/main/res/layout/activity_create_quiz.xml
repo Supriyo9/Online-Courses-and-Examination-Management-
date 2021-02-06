@@ -7,7 +7,11 @@
     android:background="#DDCc">
 
 
-    <include layout="@layout/content_create_quiz" />
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_create_quiz"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center" />
 
     <RelativeLayout
 

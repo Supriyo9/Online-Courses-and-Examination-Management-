@@ -67,21 +67,21 @@
 
 
 
-        <View
-            android:id="@+id/divider3"
-            android:layout_width="match_parent"
-            android:layout_height="4dp"
-            android:background="?android:attr/listDivider" />
+                    <View
+                        android:id="@+id/divider3"
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="?android:attr/listDivider" />
 
-        <Button
-            android:id="@+id/uploadsassignB"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="#ffcc00"
-            android:textSize="18sp"
-            android:textColor="@color/colorAccent"
-            android:layout_alignParentBottom="true"
-            android:text="Add Assignment " />
+                <Button
+                    android:id="@+id/uploadsassignB"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#ffcc00"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_alignParentBottom="true"
+                    android:text="Add Assignment " />
 
         </LinearLayout>
 

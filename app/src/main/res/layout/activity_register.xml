@@ -7,11 +7,11 @@
     android:background="#CDDC39"
     tools:context=".Register">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#021666"
-        android:layout_margin="8dp">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#021666"
+                    android:layout_margin="8dp">
 
 
     <EditText

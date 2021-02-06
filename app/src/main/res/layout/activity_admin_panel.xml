@@ -71,32 +71,32 @@
                 app:srcCompat="@drawable/evntt" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
-            <ImageView
-                android:id="@+id/AdminstdmtImg"
-                android:layout_width="wrap_content"
-                android:layout_height="10dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stdmat" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/AdminstdmtImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/stdmat" />
 
-            <ImageView
-                android:id="@+id/Adminprojct"
-                android:layout_width="wrap_content"
-                android:layout_height="10dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/projct" />
+                    <ImageView
+                        android:id="@+id/Adminprojct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/projct" />
 
-            <ImageView
-                android:id="@+id/AdminexamImg"
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/exami" />
-        </LinearLayout>
+                    <ImageView
+                        android:id="@+id/AdminexamImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/exami" />
+                </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

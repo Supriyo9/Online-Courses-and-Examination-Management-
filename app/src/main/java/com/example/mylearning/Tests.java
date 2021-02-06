@@ -99,11 +99,17 @@ public class Tests extends AppCompatActivity {
                     Test t=new Test();
                     t.setName(snapshot.getKey());
                     t.setTime(Long.parseLong(snapshot.child("Time").getValue().toString()));
+
+
+
                     ArrayList<Question> ques=new ArrayList<>();
                     for (DataSnapshot qSnap:snapshot.child("Questions").getChildren()){
                         ques.add(qSnap.getValue(Question.class));
                     }
                     t.setQuestions(ques);
+
+
+
                     tests.add(t);
 
                 }
@@ -126,7 +132,7 @@ public class Tests extends AppCompatActivity {
             }
         });
     }
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
     class TestAdapter extends ArrayAdapter<Test> implements Filterable {
         private Context mContext;
         ArrayList<Test> dataList;

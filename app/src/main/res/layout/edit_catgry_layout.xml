@@ -7,24 +7,24 @@
     android:padding="16dp"
     android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/update_cat_name"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Category Name"
-        android:textColor="@android:color/black"
-        android:backgroundTint="@color/colorPrimary"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textCursorDrawable="@null"
-        app:layout_constraintTop_toTopOf="parent" />
+                    <EditText
+                        android:id="@+id/update_cat_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginRight="32dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:hint="Category Name"
+                        android:textColor="@android:color/black"
+                        android:backgroundTint="@color/colorPrimary"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:textCursorDrawable="@null"
+                        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/updatecat_button"

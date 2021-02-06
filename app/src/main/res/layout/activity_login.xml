@@ -13,17 +13,17 @@
         android:background="#021666"
         android:layout_margin="8dp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MyLearning"
-        android:textColor="#FF5722"
-        android:textSize="50dp"
-        android:layout_marginTop="16dp"
-        app:fontFamily="@font/alex_brush"
-        android:layout_centerInParent="true"
-        android:layout_alignParentTop="true" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MyLearning"
+                android:textColor="#FF5722"
+                android:textSize="50dp"
+                android:layout_marginTop="16dp"
+                app:fontFamily="@font/alex_brush"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true" />
 
 
     <LinearLayout
