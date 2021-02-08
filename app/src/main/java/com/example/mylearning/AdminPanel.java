@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class AdminPanel extends AppCompatActivity {
 
-   private ImageView adminxam,adminprjct,adminvido,adminassig,adminevnt,adminstdmt;
+   private Button adminxam,adminprjct,adminvido,adminassig,adminevnt,adminstdmt;
 
     FirebaseAuth fAuth;
 

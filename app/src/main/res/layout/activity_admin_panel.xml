@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AdminPanel"
-    android:background="#fff">
+    android:background="#E3C365">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -25,78 +25,103 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="673dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginRight="1dp"
-        android:layout_marginBottom="1dp"
-        android:orientation="horizontal"
-        android:layout_margin="10dp"
-        android:padding="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Button
+        android:id="@+id/AdminstdmtImg"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/slider_background"
+        android:text="Study Material"
+        android:drawableLeft="@drawable/ic_baseline_class_24"
+        android:paddingLeft="32dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/adminassig"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Admintoolbar">
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
+    <Button
+        android:id="@+id/adminassig"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/slider_background"
+        android:text="Assignment"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_create_24"
+        android:paddingLeft="32dp"
 
-            <ImageView
-                android:id="@+id/adminvido"
-                android:layout_width="wrap_content"
-                android:layout_height="10dp"
-                android:layout_weight="1"
-                android:layout_margin="2dp"
-                app:srcCompat="@drawable/chattt" />
+        app:layout_constraintBottom_toTopOf="@+id/Adminprojct"
+        app:layout_constraintEnd_toEndOf="@+id/AdminstdmtImg"
+        app:layout_constraintStart_toStartOf="@+id/AdminstdmtImg" />
 
-            <ImageView
-                android:id="@+id/adminassig"
-                android:layout_width="wrap_content"
-                android:layout_height="10dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/assing" />
+    <Button
+        android:id="@+id/Adminprojct"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/slider_background"
+        android:text="project"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_school_24"
+        android:paddingLeft="32dp"
 
-            <ImageView
-                android:id="@+id/adminevnt"
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/evntt" />
-        </LinearLayout>
+        app:layout_constraintBottom_toTopOf="@+id/AdminexamImg"
+        app:layout_constraintEnd_toEndOf="@+id/adminassig"
+        app:layout_constraintStart_toStartOf="@+id/adminassig" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-                    <ImageView
-                        android:id="@+id/AdminstdmtImg"
-                        android:layout_width="wrap_content"
-                        android:layout_height="10dp"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/stdmat" />
+    <Button
+        android:id="@+id/AdminexamImg"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/slider_background"
+        android:text="examination"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+        android:paddingLeft="32dp"
 
-                    <ImageView
-                        android:id="@+id/Adminprojct"
-                        android:layout_width="wrap_content"
-                        android:layout_height="10dp"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/projct" />
+        app:layout_constraintBottom_toTopOf="@+id/adminvido"
+        app:layout_constraintEnd_toEndOf="@+id/Adminprojct"
+        app:layout_constraintStart_toStartOf="@+id/Adminprojct" />
 
-                    <ImageView
-                        android:id="@+id/AdminexamImg"
-                        android:layout_width="match_parent"
-                        android:layout_height="20dp"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/exami" />
-                </LinearLayout>
-    </LinearLayout>
+    <Button
+        android:id="@+id/adminvido"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/slider_background"
+        android:text="chat"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/adminevnt"
+        app:layout_constraintEnd_toEndOf="@+id/AdminexamImg"
+        app:layout_constraintStart_toStartOf="@+id/AdminexamImg"
+        android:drawableLeft="@drawable/ic_baseline_chat_24"
+        android:paddingLeft="32dp"
+        />
+
+    <Button
+        android:id="@+id/adminevnt"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/slider_background"
+        android:text="event"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+        android:paddingLeft="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/adminvido"
+        app:layout_constraintStart_toStartOf="@+id/adminvido" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

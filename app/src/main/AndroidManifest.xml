@@ -75,7 +75,8 @@
         <activity
             android:name=".AdminPanel"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ChangePasswordDialog" />
+        <activity android:name=".ChangePasswordDialog"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".StudyMaterial"
             android:theme="@style/AppTheme.NoActionBar" />

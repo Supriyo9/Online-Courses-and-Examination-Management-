@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
@@ -26,7 +27,7 @@ public class MainFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_main,container,false);
 
-        ImageView Vidcall=view.findViewById(R.id.videocall);
+        Button Vidcall=view.findViewById(R.id.videocall);
         Vidcall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,7 +36,7 @@ public class MainFragment extends Fragment {
         });
 
 
-        ImageView assignmnt=view.findViewById(R.id.assignmnt);
+        Button assignmnt=view.findViewById(R.id.assignmnt);
         assignmnt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,7 +44,7 @@ public class MainFragment extends Fragment {
             }
         });
 
-        ImageView project=view.findViewById(R.id.prjct);
+        Button project=view.findViewById(R.id.prjct);
         project.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +52,7 @@ public class MainFragment extends Fragment {
             }
         });
 
-        ImageView exam=view.findViewById(R.id.exm);
+        Button exam=view.findViewById(R.id.exm);
         exam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,7 +60,7 @@ public class MainFragment extends Fragment {
             }
         });
 
-        ImageView evnt=view.findViewById(R.id.evntt);
+        Button evnt=view.findViewById(R.id.evntt);
         evnt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,7 +68,7 @@ public class MainFragment extends Fragment {
             }
         });
 
-        ImageView stdymatrial=view.findViewById(R.id.studymatrial);
+        Button stdymatrial=view.findViewById(R.id.studymatrial);
         stdymatrial.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
